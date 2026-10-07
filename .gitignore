@@ -10,3 +10,4 @@ save.json.tmp
 *.roto
 save.test-*.json
 test_snapshots/
+config.bat

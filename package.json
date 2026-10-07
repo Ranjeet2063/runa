@@ -1,7 +1,7 @@
 {
   "name": "runa",
   "version": "0.2.0",
-  "description": "RPG ASCII de exploración, combate e inventario para terminal.",
+  "description": "RPG ASCII de exploraci\u00f3n, combate e inventario para terminal.",
   "private": true,
   "bin": "bin.mjs",
   "upgrade": "pear://hg11t8ipq5kkc7d4prdmu4mapi18yqm7p43ee5dzmnf7y1yjyo9o",
@@ -9,7 +9,7 @@
     "format": "prettier . --write",
     "test": "brittle-bare test/index.js",
     "lint": "prettier . --check && lunte lib app.js index.js bin.mjs test workers scripts",
-    "start": "bare bin.mjs --no-updates",
+    "start": "node init && bare bin.mjs --no-updates",
     "make": "node scripts/make.js",
     "make:darwin-arm64": "bare-build --name runa --standalone --host darwin-arm64 --out ./out/darwin-arm64 bin.mjs",
     "make:darwin-x64": "bare-build --name runa --standalone --host darwin-x64 --out ./out/darwin-x64 bin.mjs",
